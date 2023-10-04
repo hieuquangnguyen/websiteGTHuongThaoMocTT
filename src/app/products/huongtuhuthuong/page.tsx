@@ -37,11 +37,11 @@ const HuongTuHuThuong: React.FC = () => {
               ThoiGianGiaoHang="TH1: Nếu nhang có sẵn thì 3-4 ngày sẽ có hàng, và chúng ta trao đổi tiền ship. TH2: Nếu nhang không có sẵn thì 7 ngày sẽ có hàng. TH3: Nếu bạn sống gần đại lí của chúng tôi, thì thời gian giao sẽ nhanh và phí ship rẻ hơn."
             />
             <ProductItem
-              imgSrc="/products/tuhuthuong/TamDoTH40_1.jpg"
-              imgSrc1="/products/tuhuthuong/TamDoTH40_2.jpg"
-              imgSrc2="/products/tuhuthuong/TamDoTH40_3.jpg"
-              imgSrc3="/products/tuhuthuong/TamDoTH40_4.jpg"
-              imgSrc4="/products/tuhuthuong/TamDoTH40_5.jpg"
+              imgSrc="/products/tuhuthuong/TamDoTH40_11.jpg"
+              imgSrc1="/products/tuhuthuong/TamDoTH40_22.jpg"
+              imgSrc2="/products/tuhuthuong/TamDoTH40_33.jpg"
+              imgSrc3="/products/tuhuthuong/TamDoTH40_44.jpg"
+              imgSrc4="/products/tuhuthuong/TamDoTH40_55.jpg"
               title="Hương Cây | Tăm Đỏ"
               price="LIÊN HỆ"
               huonglieu="là sự kết hợp của các nguyên liệu từ tự nhiên như rễ găng núi, rễ hương lâu, keo bời lời, cùng một số thảo dược khác. "
