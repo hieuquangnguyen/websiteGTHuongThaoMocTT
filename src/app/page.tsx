@@ -683,7 +683,7 @@ const Home: React.FC = () => {
                   <div className="item">
                     <Image
                       className={st.imageGT1}
-                      src="/home/content3/gth3_5.jpg"
+                      src="/home/content3/gth3_55.jpg"
                       alt="Landscape picture"
                       width={300}
                       height={800}
@@ -924,7 +924,7 @@ const Home: React.FC = () => {
                   <div className="item">
                     <Image
                       className={st.imageGT1}
-                      src="/home/content4/KiemTraChatLuong.jpg"
+                      src="/home/content4/KiemTraChatLuong1.jpg"
                       alt="Landscape picture"
                       width={300}
                       height={350}
