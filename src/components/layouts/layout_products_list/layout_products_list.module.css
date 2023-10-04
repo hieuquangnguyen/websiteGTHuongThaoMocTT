@@ -1,0 +1,20 @@
+/* layout_products_list.module.css */
+
+.container_products {
+  width: 100%;
+}
+
+.container_products_list {
+  width: 100%;
+  /* background-color: red; */
+  height: 600px; /* Chiều cao cố định */
+  overflow-y: auto;
+  background-color: #2d894a;
+}
+
+.product_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: solid 5px rgb(55, 51, 51);
+}

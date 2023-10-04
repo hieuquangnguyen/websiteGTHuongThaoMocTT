@@ -1,0 +1,32 @@
+.overcontent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleProduct {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.overcontent2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.desProduct {
+  overflow: hidden;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.5;
+  text-align: justify;
+  border: solid 5px rgb(8, 62, 19);
+}
+.descriptionScroll {
+  max-height: 170px; /* Set the maximum height for the description */
+  overflow-y: auto;
+  padding-right: 5px;
+}

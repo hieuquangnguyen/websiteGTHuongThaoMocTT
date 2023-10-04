@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Georgia&display=swap');
+.overTitleProduct {
+  text-align: center;
+  /* background-color: #5d7a40; */
+  background-color: #2d894a;
+  /* width: fit-content; */
+  border-radius: 7px;
+}
+.titleProduct {
+  color: yellow;
+  padding: 1px;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  /* background-color: #5d7a40; */
+}

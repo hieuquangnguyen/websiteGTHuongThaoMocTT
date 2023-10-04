@@ -1,0 +1,20 @@
+{
+  "items": {
+    "bootstrap": [
+      {
+        "id": 1,
+        "title": "Ảnh 1",
+        "body": "Bootstrap Carousel Example",
+        "imageUrl": "/avtProduct",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      },
+      {
+        "id": 2,
+        "title": "Ảnh 2",
+        "body": "Bootstrap Carousel Example",
+        "imageUrl": "/avtProduct",
+        "docs": "https://getbootstrap.com/docs/4.0/components/carousel/"
+      }
+    ]
+  }
+}

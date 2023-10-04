@@ -1,0 +1,44 @@
+/* img */
+
+.header {
+  margin-top: 53.5px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffb0;
+  max-height: 300px;
+  border-bottom: 1px solid #ccc; /* Add a 1px solid border at the bottom of the header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the header */
+}
+
+.imgHeader img {
+  max-width: 100%;
+  height: auto;
+}
+.coverContent {
+  height: auto;
+  /* border: solid 2px black;
+  border-radius: 5px; */
+  border-top: none;
+  box-shadow: 5px 40px 100px 1px rgb(41, 125, 20);
+}
+/* Media Queries for Responsive Design */
+/* For laptops and larger devices */
+@media screen and (max-width: 769px) {
+  .left {
+    flex: 100%;
+    justify-content: center;
+  }
+}
+
+/* For tablets and smaller devices */
+/* @media screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    flex: 100%;
+    justify-content: center;
+  }
+} */

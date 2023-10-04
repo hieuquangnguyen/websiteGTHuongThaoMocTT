@@ -1,0 +1,125 @@
+.coverContact {
+  background-color: #ecf39e;
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+}
+
+.noteContact {
+  text-align: center;
+  width: 100%;
+}
+.noteContact h3 {
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+.IamHieu {
+  width: fit-content;
+  padding: 10px;
+  /* border: solid 1px grey; */
+  font-size: 20px;
+  color: #1b4965;
+}
+/* hiệu ứng chuyển động  */
+@keyframes example {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.IamHieu {
+  display: inline-block;
+  animation: example 15s linear infinite;
+  /* animation-direction: alternate; */
+}
+.noteContact {
+  width: 100%;
+  /* white-space: nowrap; */
+  overflow: hidden;
+}
+
+.LoiChao {
+  width: 100%;
+  /* background-color: rgb(153, 223, 223); */
+  background-color: #98c9a3;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
+.Intro {
+  padding: 0px 20px 0px 0px;
+  text-align: justify;
+
+  font-size: 18px;
+  line-height: 1.7;
+  color: #000000;
+}
+.fbLink {
+  text-align: center;
+  font-size: 18px;
+}
+.fbLink h5 {
+  font-size: 18px;
+  padding-left: 20px;
+  color: #2d894a;
+}
+.fbLink a {
+  padding-left: 20px;
+}
+.qrZalo {
+  text-align: center;
+  font-size: 18px;
+}
+.qrZalo h5 {
+  font-size: 18px;
+  padding-left: 20px;
+  color: #2d894a;
+}
+.imgQRzalo {
+  text-align: center;
+}
+.phoneNumber h5 {
+  font-size: 18px;
+  color: #2d894a;
+}
+.phoneNumber {
+  font-size: 18px;
+  padding-left: 20px;
+  text-align: center;
+}
+.phoneNumber a {
+  padding-right: 5px;
+}
+.adressProduce h5 {
+  font-size: 18px;
+  color: #2d894a;
+}
+.adressProduce {
+  font-size: 18px;
+  padding-left: 20px;
+  text-align: center;
+}
+.mapDirect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 3px grey;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 30px;
+}
+
+.mapDirect iframe {
+  max-width: 100%;
+  width: 100%;
+  box-shadow: 0px 0px 40px 0px rgb(41, 125, 20);
+}
+
+@media (max-width: 768px) {
+  .phoneNumber a {
+    display: block;
+  }
+}

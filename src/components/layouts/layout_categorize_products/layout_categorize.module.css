@@ -1,0 +1,113 @@
+.coverLeft {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.titleLeft {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.productsCaregorize {
+  display: block;
+}
+
+.productsCaregorize a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 0;
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: #2d894a;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.productsCaregorize a:hover {
+  /* background-color: #f3a4a4; */
+  box-shadow: 0px 5px 15px #2d894a;
+  color: yellow;
+  text-decoration: none;
+}
+
+/* Media query for small screens */
+/* @media (max-width: 768px) {
+  .coverLeft {
+    width: 100%;
+    padding: 0;
+  }
+
+  .productsCaregorize a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 0;
+  }
+} */
+
+/* CSS cho biểu tượng menu */
+.menuIcon {
+  display: none; /* Ẩn biểu tượng menu mặc định */
+  cursor: pointer;
+}
+
+.menuIcon .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+  margin: 4px 0;
+}
+
+/* CSS cho menu khi màn hình nhỏ */
+@media (max-width: 768px) {
+  .coverLeft {
+    width: 100%;
+    padding: 0;
+  }
+  .productsCaregorize a {
+    display: inline-block;
+    padding: 0;
+    padding: 5px 0;
+    width: 200px;
+  }
+  .productsCaregorize a:hover {
+    /* background-color: #f3a4a4; */
+    box-shadow: 0px 5px 15px #2d894a;
+    color: yellow;
+    text-decoration: none;
+  }
+  .menuIcon {
+    display: block; /* Hiển thị biểu tượng menu */
+  }
+
+  .productsCaregorize {
+    display: none; /* Ẩn menu mặc định */
+    position: fixed; /* Sử dụng position fixed để menu chiếm toàn bộ màn hình */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(249, 249, 249, 0.9); /* Sử dụng màu nền với độ trong suốt */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    overflow-y: auto; /* Cho phép cuộn nếu nội dung quá dài */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Độ bóng */
+  }
+  .menuContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%; /* Đảm bảo menuContent chiếm toàn bộ chiều cao của menu */
+  }
+  .showMenu {
+    display: block !important; /* Hiển thị menu khi cần thiết */
+  }
+}
