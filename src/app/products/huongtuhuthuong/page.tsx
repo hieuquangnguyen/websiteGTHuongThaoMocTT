@@ -19,7 +19,7 @@ const HuongTuHuThuong: React.FC = () => {
           </div>
           <LayoutProductList>
             <ProductItem
-              imgSrc="/products/huongtuhuthuong/NuTuHu1.jpg"
+              imgSrc="/products/tuhuthuong/NuTuHu1.jpg"
               imgSrc1="/products/tuhuthuong/NuTuHu2.jpg"
               imgSrc2="/products/tuhuthuong/NuTuHu3.jpg"
               imgSrc3="/products/tuhuthuong/NuTuHu4.jpg"
@@ -37,7 +37,7 @@ const HuongTuHuThuong: React.FC = () => {
               ThoiGianGiaoHang="TH1: Nếu nhang có sẵn thì 3-4 ngày sẽ có hàng, và chúng ta trao đổi tiền ship. TH2: Nếu nhang không có sẵn thì 7 ngày sẽ có hàng. TH3: Nếu bạn sống gần đại lí của chúng tôi, thì thời gian giao sẽ nhanh và phí ship rẻ hơn."
             />
             <ProductItem
-              imgSrc="/products/huongtuhuthuong/TamDoTH40_1.jpg"
+              imgSrc="/products/tuhuthuong/TamDoTH40_1.jpg"
               imgSrc1="/products/tuhuthuong/TamDoTH40_2.jpg"
               imgSrc2="/products/tuhuthuong/TamDoTH40_3.jpg"
               imgSrc3="/products/tuhuthuong/TamDoTH40_4.jpg"
@@ -56,7 +56,7 @@ const HuongTuHuThuong: React.FC = () => {
             />
 
             <ProductItem
-              imgSrc="/products/huongtuhuthuong/TamTrangBQ40_1.jpg"
+              imgSrc="/products/tuhuthuong/TamTrangBQ40_1.jpg"
               imgSrc1="/products/tuhuthuong/TamTrangBQ40_2.jpg"
               imgSrc2="/products/tuhuthuong/TamTrangBQ40_3.jpg"
               imgSrc3="/products/tuhuthuong/TamTrangBQ40_1.jpg"
@@ -74,7 +74,7 @@ const HuongTuHuThuong: React.FC = () => {
               ThoiGianGiaoHang="TH1: Nếu nhang có sẵn thì 3-4 ngày sẽ có hàng, và chúng ta trao đổi tiền ship. TH2: Nếu nhang không có sẵn thì 7 ngày sẽ có hàng. TH3: Nếu bạn sống gần đại lí của chúng tôi, thì thời gian giao sẽ nhanh và phí ship rẻ hơn."
             />
             <ProductItem
-              imgSrc="/products/huongtuhuthuong/CayToBQ80_1.jpg"
+              imgSrc="/products/tuhuthuong/CayToBQ80_1.jpg"
               imgSrc1="/products/tuhuthuong/CayToBQ80_2.jpg"
               imgSrc2="/products/tuhuthuong/CayToBQ80_3.jpg"
               imgSrc3="/products/tuhuthuong/CayToBQ80_1.jpg"
