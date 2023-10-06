@@ -1138,7 +1138,7 @@ const Home: React.FC = () => {
           <div className={st.gth6}>
             <div className={st.imageContainer}>
               <video className={st.video} width="100%" height="auto" controls>
-                <source src="" type="video/mp4"></source>
+                <source src="test.mp4" type="video/mp4"></source>
                 {/* <source src="your-video-file.ogg" type="video/ogg"></source> */}
                 Your browser does not support the video tag.
               </video>
