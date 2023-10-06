@@ -85,6 +85,7 @@
   gap: 20px; /* Khoảng cách giữa các div */
   justify-content: center;
 }
+
 .videoRate {
   text-align: center;
   background-color: aliceblue;
@@ -98,8 +99,8 @@
   border: solid 1px black;
   border-radius: 10px;
   box-shadow: 10px 10px 5px grey;
-  max-width: 100%; /* Đảm bảo video không bị tràn ra ngoài div khi màn hình nhỏ */
-  height: auto; /* Giữ tỷ lệ khung hình video */
+  max-width: fit-content; /* Đảm bảo video không bị tràn ra ngoài div khi màn hình nhỏ */
+  height: 350px; /* Giữ tỷ lệ khung hình video */
 }
 /* Các div chứa thông tin và hình ảnh */
 .giaychungnhan {

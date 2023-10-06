@@ -1116,12 +1116,15 @@ const Home: React.FC = () => {
               <div className={st.danhgiatukhachhang}>
                 <i>
                   <h4 style={{ paddingLeft: '25px' }}>
-                    Video tóm gọn các đánh giá của khách hàng từ cơ sở sản xuất
+                    Video tóm gọn các đánh giá của khách hàng từ cơ sở sản xuất.
+                    <h6>
+                      Mình sẽ cập nhật thêm video, bởi không thể up video quá lớn được hic hic
+                    </h6>
                   </h4>
                 </i>
                 <div className={st.videoRate}>
                   <video className={st.video} width="600" height="350" controls>
-                    <source src="" type="video/mp4"></source>
+                    <source src="./videodanhgia1TuHu.mp4" type="video/mp4"></source>
                     {/* <source src="your-video-file.ogg" type="video/ogg"></source> */}
                     Your browser does not support the video tag.
                   </video>
@@ -1130,7 +1133,7 @@ const Home: React.FC = () => {
               {/* div over phần 5 */}
             </div>
           </div>
-          {/* end GT5 */}
+          {/* end GT5 đánh giá khách hàng */}
 
           <div className={st.gth6}>
             <div className={st.imageContainer}>
@@ -1177,7 +1180,7 @@ const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          {/* end GT6 */}
+          {/* end GT6, sáng tạo và nghiên cứu phát triển */}
 
           <div className={st.gth7}>
             <div className={st.textContainer}>
