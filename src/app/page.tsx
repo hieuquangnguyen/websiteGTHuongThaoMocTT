@@ -1128,27 +1128,28 @@ const Home: React.FC = () => {
                   </video>
                 </div> */}
                 {/* image slide show */}
-                <div className={st.imageContainer}>
+                <div className={st.videoRate}>
                   {/* <Image src="/home/avtProduct.png" alt="Landscape picture" width={250} height={300} /> */}
                   <div
-                    id="myCarousel9"
+                    id="myCarousel5"
                     className="carousel slide"
                     data-ride="carousel"
+                    data-interval="0"
                     // style={{ backgroundColor: '#faedcd', borderRadius: '100px' }}
                   >
                     {/* Indicators */}
                     <ol className="carousel-indicators" style={{ bottom: '0px' }}>
-                      <li data-target="#myCarousel9" data-slide-to={0} className="active" />
-                      <li data-target="#myCarousel9" data-slide-to={1} />
+                      <li data-target="#myCarousel5" data-slide-to={0} className="active" />
+                      <li data-target="#myCarousel5" data-slide-to={1} />
                     </ol>
                     {/* Wrapper for slides */}
-                    <div className="carousel-inner" style={{ boxShadow: '0px 10px 5px 5px grey' }}>
+                    <div className="carousel-inner">
                       <div className={`item active  `}>
                         <video
                           src="/video/danhgia1.mp4"
                           className={st.video}
-                          width="300px"
-                          height="350px"
+                          width="350px"
+                          height="400px"
                           controls
                         ></video>
                       </div>
@@ -1167,18 +1168,18 @@ const Home: React.FC = () => {
                     {/* Left and right controls */}
                     <a
                       className="left carousel-control"
-                      href="#myCarousel9"
+                      href="#myCarousel5"
                       data-slide="prev"
-                      style={{ backgroundImage: 'none' }}
+                      style={{ backgroundImage: 'none', color: '#ffb703' }}
                     >
                       <span className="glyphicon glyphicon-chevron-left" />
                       <span className="sr-only">Previous</span>
                     </a>
                     <a
                       className="right carousel-control"
-                      href="#myCarousel9"
+                      href="#myCarousel5"
                       data-slide="next"
-                      style={{ backgroundImage: 'none' }}
+                      style={{ backgroundImage: 'none', color: '#ffb703' }}
                     >
                       <span className="glyphicon glyphicon-chevron-right" />
                       <span className="sr-only">Next</span>

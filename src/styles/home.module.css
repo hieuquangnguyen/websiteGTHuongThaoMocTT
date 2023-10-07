@@ -85,10 +85,17 @@
   gap: 20px; /* Khoảng cách giữa các div */
   justify-content: center;
 }
-
+.danhgiatukhachhang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .videoRate {
   text-align: center;
-  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  background-color: #caf0f8;
+  width: fit-content;
   padding-bottom: 10px;
   padding-top: 10px;
   padding-left: 20px;
@@ -97,11 +104,10 @@
 }
 .video {
   border: solid 1px black;
-  border-radius: 10px;
-  box-shadow: 10px 10px 5px grey;
+  border-radius: 5px;
   max-width: 100%; /* Đảm bảo video không bị tràn ra ngoài div khi màn hình nhỏ */
-  /* width: fit-content; */
-  height: 350px; /* Giữ tỷ lệ khung hình video */
+  width: fit-content;
+  height: 400px; /* Giữ tỷ lệ khung hình video */
 }
 /* Các div chứa thông tin và hình ảnh */
 .giaychungnhan {
