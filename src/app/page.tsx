@@ -1122,10 +1122,68 @@ const Home: React.FC = () => {
                     </h6>
                   </h4>
                 </i>
-                <div className={st.videoRate}>
+                {/* <div className={st.videoRate}>
                   <video className={st.video} width="300px" height="350px" controls>
                     <source src="" type="video/mp4"></source>
                   </video>
+                </div> */}
+                {/* image slide show */}
+                <div className={st.imageContainer}>
+                  {/* <Image src="/home/avtProduct.png" alt="Landscape picture" width={250} height={300} /> */}
+                  <div
+                    id="myCarousel9"
+                    className="carousel slide"
+                    data-ride="carousel"
+                    // style={{ backgroundColor: '#faedcd', borderRadius: '100px' }}
+                  >
+                    {/* Indicators */}
+                    <ol className="carousel-indicators" style={{ bottom: '0px' }}>
+                      <li data-target="#myCarousel9" data-slide-to={0} className="active" />
+                      <li data-target="#myCarousel9" data-slide-to={1} />
+                    </ol>
+                    {/* Wrapper for slides */}
+                    <div className="carousel-inner" style={{ boxShadow: '0px 10px 5px 5px grey' }}>
+                      <div className={`item active  `}>
+                        <video
+                          src="/video/danhgia1.mp4"
+                          className={st.video}
+                          width="300px"
+                          height="350px"
+                          controls
+                        ></video>
+                      </div>
+                      <div className="item">
+                        <video
+                          src="/video/danhgia2.mp4"
+                          className={st.video}
+                          width="300px"
+                          height="350px"
+                          controls
+                        ></video>
+                      </div>
+
+                      {/*  */}
+                    </div>
+                    {/* Left and right controls */}
+                    <a
+                      className="left carousel-control"
+                      href="#myCarousel9"
+                      data-slide="prev"
+                      style={{ backgroundImage: 'none' }}
+                    >
+                      <span className="glyphicon glyphicon-chevron-left" />
+                      <span className="sr-only">Previous</span>
+                    </a>
+                    <a
+                      className="right carousel-control"
+                      href="#myCarousel9"
+                      data-slide="next"
+                      style={{ backgroundImage: 'none' }}
+                    >
+                      <span className="glyphicon glyphicon-chevron-right" />
+                      <span className="sr-only">Next</span>
+                    </a>
+                  </div>
                 </div>
               </div>
               {/* div over phần 5 */}
