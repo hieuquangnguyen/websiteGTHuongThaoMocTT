@@ -1123,10 +1123,8 @@ const Home: React.FC = () => {
                   </h4>
                 </i>
                 <div className={st.videoRate}>
-                  <video className={st.video} width="300" height="350" controls>
-                    <source src="./danhgia1.mp4" type="video/mp4"></source>
-                    {/* <source src="your-video-file.ogg" type="video/ogg"></source> */}
-                    Your browser does not support the video tag.
+                  <video className={st.video} width="300px" height="350px" controls>
+                    <source src="" type="video/mp4"></source>
                   </video>
                 </div>
               </div>
@@ -1137,10 +1135,8 @@ const Home: React.FC = () => {
 
           <div className={st.gth6}>
             <div className={st.imageContainer}>
-              <video className={st.video} width="100%" height="auto" controls>
+              <video className={st.video} width="300px" height="350px" controls>
                 <source src="" type="video/mp4"></source>
-                {/* <source src="your-video-file.ogg" type="video/ogg"></source> */}
-                Your browser does not support the video tag.
               </video>
             </div>
             <div className={st.textContainer}>
