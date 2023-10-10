@@ -1,5 +1,6 @@
 import './globals.css';
 import type { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'HƯƠNG THẢO MỘC',
@@ -14,6 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <>
           <div id="modal-root"></div>
         </>
+        <Analytics />
       </body>
     </html>
   );
