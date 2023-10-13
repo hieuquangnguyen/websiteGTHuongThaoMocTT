@@ -13,14 +13,21 @@ const Navigation: React.FC = () => {
     }
   }
 
+
   return (
     <>
       <div className={styles.topnav} id="myTopnav">
-        <Link href="/">TRANG CHỦ</Link>
+        <Link href="/">
+          TRANG CHỦ
+        </Link>
 
-        <Link href={'/products/allproducts'}>SẢN PHẨM</Link>
+        <Link href={'/products/allproducts'} >
+          SẢN PHẨM
+        </Link>
 
-        <Link href={'/contact'}>LIÊN HỆ</Link>
+        <Link href={'/contact'}>
+          LIÊN HỆ
+        </Link>
 
         <Link href="#" className={styles.icon} onClick={() => XuLiManHinhThuGon()}>
           &#9776;

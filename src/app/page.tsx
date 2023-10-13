@@ -19,8 +19,19 @@ const Home: React.FC = () => {
       <Script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" />
       <Script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" />
 
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+
       <>
         <LayoutContent>
+          <div className={st.coverIamHieu}>
+            <div className={st.IamHieu}>
+              Xin chào các bạn, Mình là Quang Hiếu. Thật vui khi các bạn đã ghé thăm website giới
+              thiệu hương này của mình.{' '}
+            </div>
+          </div>
           <div className={st.gth1}>
             <div className={st.textContainer}>
               <h2>CHÚNG TÔI LÀ AI ?</h2>
@@ -29,7 +40,7 @@ const Home: React.FC = () => {
               </i>
               <br />
               <p className={st.contentTheP}>
-                <strong>Tên công ty:</strong> Nhà Phân Phối Hương Sạch T&T
+                <strong>Nhà Phân Phối:</strong> Nhà Phân Phối Hương Sạch T&T
                 <br />
                 <div className={st.contentTheP}>
                   Nếu bạn đang tìm kiếm sự thư giãn và mùi hương dễ chịu nơi làm việc hay ở nhà, thì
@@ -46,7 +57,7 @@ const Home: React.FC = () => {
                   thị trường hơn và đứng với vai trò là một nhà phân phối để tìm các{' '}
                   <b>
                     Đại Lí Bán Sản Phẩm Sạch, Tự Nhiên, tìm các nguồn khách hàng thích mùi hương tự
-                    nhiên, an toàn cho môi trường sống của chính họ.
+                    nhiên, an toàn cho môi trường sống.
                   </b>{' '}
                   Và chính tôi tin rằng hương thảo mộc, với mùi hương riêng của từng loại thảo mộc
                   chính trong từng loại hương có thể mang đến cho bạn cảm giác ấm áp và an lành.
@@ -1041,7 +1052,7 @@ const Home: React.FC = () => {
                   sản phẩm đi kiểm định chất lượng, chất trong khói tạo ra để đảm bảo. Nhưng trong
                   tương lai phát triển thì bên nhà phân phối sẽ cung cấp đẩy đủ các thẩm định hương
                   rõ ràng. Ngoài ra, nếu có đơn vị Đại Lí nào muốn làm Đại Lí của cơ sở thì bên cơ
-                  sở sản xuất Hương Thu Thảo sẵn sàng hỗ trợ 50% tiền kiểm định sản phẩm.
+                  sở sản xuất Hương Thu Thảo sẵn sàng hỗ trợ tiền kiểm định sản phẩm.
                 </h5>
               </i>
               <br />
@@ -1141,6 +1152,7 @@ const Home: React.FC = () => {
                     <ol className="carousel-indicators" style={{ bottom: '0px' }}>
                       <li data-target="#myCarousel5" data-slide-to={0} className="active" />
                       <li data-target="#myCarousel5" data-slide-to={1} />
+                      <li data-target="#myCarousel5" data-slide-to={1} />
                     </ol>
                     {/* Wrapper for slides */}
                     <div className="carousel-inner">
@@ -1156,6 +1168,15 @@ const Home: React.FC = () => {
                       <div className="item">
                         <video
                           src="/video/danhgia2.mp4"
+                          className={st.video}
+                          width="300px"
+                          height="350px"
+                          controls
+                        ></video>
+                      </div>
+                      <div className="item">
+                        <video
+                          src="/video/danhgia3.mp4"
                           className={st.video}
                           width="300px"
                           height="350px"

@@ -69,6 +69,9 @@
     width: 100%;
     padding: 0;
   }
+  .titleLeft {
+    font-size: 20px;
+  }
   .productsCaregorize a {
     display: inline-block;
     padding: 0;

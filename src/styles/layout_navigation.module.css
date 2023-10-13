@@ -31,6 +31,7 @@
 .active {
   background-color: #010101;
   color: white;
+  text-decoration: none;
 }
 
 /* Ẩn liên kết để mở và đóng topnav trên màn hình nhỏ */
@@ -41,6 +42,7 @@
 .dropdownContent {
   display: none;
   background-color: #f9f9f9;
+  text-decoration: none;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -56,6 +58,7 @@
   border: none;
   outline: none;
   color: #14213d;
+  text-decoration: none;
   font-weight: 700;
   padding: 14px 16px;
   background-color: inherit;
@@ -77,12 +80,14 @@
 .topnav a:hover,
 .dropdown:hover .dropbtn {
   background-color: #555;
+  text-decoration: none;
   color: white;
 }
 
 /* Thêm nền xám cho liên kết dropdown khi hover */
 .dropdownContent a:hover {
   background-color: #ddd;
+  text-decoration: none;
   color: black;
 }
 
@@ -109,31 +114,28 @@
     top: 0;
     position: fixed;
   }
-  .topnav.responsive {
-    position: relative;
-  }
+
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+  .topnav.responsive {
+    flex-direction: column;
+  }
   .topnav.responsive a {
-    float: none;
     display: block;
     text-align: left;
   }
   .topnav.responsive .dropdown {
     float: none;
   }
-  .topnav.responsive .dropdownContent {
-    position: relative;
-  }
+
   .topnav.responsive .dropdown .dropbtn {
-    display: block;
     width: 100%;
     text-align: left;
   }
   .topnav {
-    justify-content: flex-start;
+    justify-content: center;
   }
 }

@@ -32,7 +32,8 @@
 }
 .IamHieu {
   display: inline-block;
-  animation: example 15s linear infinite;
+  animation: example 25s linear infinite;
+  text-align: center;
   /* animation-direction: alternate; */
 }
 .noteContact {

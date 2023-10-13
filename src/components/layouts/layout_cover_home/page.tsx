@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-
 import Styles from '@/styles/layout_home.module.css';
 
 import Navigation from '@/components/layouts/layout_navigation/page';
@@ -33,7 +32,7 @@ export default function LayoutHome({ children }: { children: React.ReactNode }) 
 
       {/* Footer */}
       <>
-        <div className={stf.coverFooter}>
+        {/* <div className={stf.coverFooter}>
           <div className={stf.title}>
             <h3 style={{ textAlign: 'center', color: 'white' }}> NHÀ PHÂN PHỐI HƯƠNG SẠCH T&T</h3>
           </div>
@@ -81,11 +80,44 @@ export default function LayoutHome({ children }: { children: React.ReactNode }) 
                   <Image src="/iconZalo.png" alt="" width={30} height={30} />
                 </Link>
               </p>
-              {/* <span>Bạn có thể liên hệ qua Facebook, Zalo, SĐT, Email. </span> */}
               <Link href={'/contact'}> Xin hãy click tại đây</Link>
             </div>
           </div>
-        </div>
+        </div> */}
+        <footer>
+          <div className={stf.footer}>
+            <div className={stf.row}>
+              <Link href={'https://www.facebook.com/huongthaomocThuThao'}>
+                <Image src="/iconFB.png" alt="" width={40} height={40} />
+              </Link>
+              <Link href={'https://www.instagram.com/huong_thao_moc_thu_thao/'}>
+                <Image src="/iconInsta.png" alt="" width={40} height={40} />
+              </Link>
+              <Link href={'/contact'}>
+                <Image src="/iconZalo.png" alt="" width={40} height={40} />
+              </Link>
+            </div>
+            <div className={stf.row}>
+              <ul>
+                <li>
+                  <Link href={'tel:0707960071'}> Gọi Ngay</Link>
+                </li>
+                <li>
+                  <Link href={'/contact'}>Liên Hệ</Link>
+                </li>
+                <li>
+                  <Link href={'mailto:huongtunhienthuthao.22@gmail.com'}>Gửi Thư</Link>
+                </li>
+              </ul>
+            </div>
+            <div className={stf.row}>
+              <h4>Địa chỉ nhà phân phối: xã Duy Sơn, huyện Duy Xuyên, tỉnh Quảng Nam.</h4>
+            </div>
+            <div className={stf.row}>
+              <h5>Design By : Quang Hieu - STS</h5>
+            </div>
+          </div>
+        </footer>
       </>
     </div>
   );

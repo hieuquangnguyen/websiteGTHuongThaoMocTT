@@ -1,5 +1,38 @@
 /* styles.module.css */
 
+.coverIamHieu {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  border: 5px solid #ccc;
+}
+
+.IamHieu {
+  width: fit-content;
+  padding: 10px;
+  /* border: solid 1px grey; */
+  font-size: 20px;
+  color: #386641;
+  text-align: center;
+}
+/*
+/* hiệu ứng chuyển động  */
+@keyframes example {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.IamHieu {
+  display: inline-block;
+  animation: example 20s linear infinite;
+  font-weight: 700;
+  background-color: #ecf39e;
+  /* animation-direction: alternate; */
+}
+
 .content_Home {
   display: flex;
   flex-direction: column;

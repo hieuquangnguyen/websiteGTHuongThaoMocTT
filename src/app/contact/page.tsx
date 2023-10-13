@@ -18,7 +18,8 @@ const Contact: React.FC = () => {
         <div className={st.noteContact}>
           <h5>
             <div className={st.IamHieu}>
-              Hi, I am Hieu. I am really happy when you stay here and visit my website.{' '}
+              Xin chào các bạn, Mình là Quang Hiếu. Thật vui khi các bạn đã ghé thăm website giới
+              thiệu hương này của mình.{' '}
             </div>
 
             <div className={st.LoiChao}>

@@ -16,6 +16,7 @@
 .desProductContainer {
   max-height: 100px; /* Set the maximum height you want */
   overflow: hidden;
+  padding: 10px;
 }
 
 .imgProduct {
@@ -71,7 +72,7 @@
 }
 
 .priceProduct {
-  color: red;
+  color: yellow;
   font-weight: bold;
   padding-bottom: 5px;
 }
@@ -89,5 +90,10 @@
   }
   to {
     background-color: yellow;
+  }
+}
+@media (max-width: 768px) {
+  .coverItem {
+    margin-top: 0px;
   }
 }

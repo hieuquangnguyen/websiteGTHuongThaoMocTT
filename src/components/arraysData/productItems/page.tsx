@@ -14,7 +14,7 @@ interface ProductProps {
   imgSrc1: string;
   imgSrc2: string;
   imgSrc3: string;
-  imgSrc4 : string;
+  imgSrc4: string;
   title: string;
   price: string;
   huonglieu: string;
@@ -66,11 +66,7 @@ const ProductItem: React.FC<ProductProps> = ({
         <div className={st.titleProduct}>
           <p>{title}</p>
         </div>
-        <div className={st.priceProduct}>
-          <Link style={{ color: 'red', textDecoration: 'none' }} href={'/contact'}>
-            {price}
-          </Link>
-        </div>
+        <div className={st.priceProduct}>Giá Lẻ: {price}</div>
 
         <div className={st.desProductContainer}>
           <div className={st.desProduct}>
@@ -226,12 +222,7 @@ const ProductItem: React.FC<ProductProps> = ({
                           &nbsp;{priceSi}
                         </Link>
                       </li>
-                      <li>
-                        Giá bán lẻ :
-                        <Link style={{ color: 'yellow', textDecoration: 'none' }} href={'/contact'}>
-                          &nbsp;{priceLe}
-                        </Link>
-                      </li>
+                      <li>Giá bán lẻ :{priceLe}</li>
                     </ul>
                     <u>
                       <b style={{ color: '#fff900de' }}>Chất Lượng Sản Phẩm</b>
