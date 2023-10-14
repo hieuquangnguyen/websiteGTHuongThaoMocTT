@@ -440,9 +440,9 @@ const Home: React.FC = () => {
                     <strong>HƯƠNG TU HÚ</strong>{' '}
                     <ul>
                       <li>
-                        <strong>Đặc điểm nổi bật:</strong> Hương Tu Hú thường có mùi hương đậm,
-                        nguyên thủy và mạnh mẽ. Nó thường được tạo ra từ các loại cây găng núi và có
-                        màu xanh từ lá bời lời.{' '}
+                        <strong>Đặc điểm nổi bật:</strong> Hương Tu Hú thường có mùi hương nhẹ
+                        nhàng, nguyên thủy. Nó thường được tạo ra từ các loại cây găng núi, rễ hương
+                        lâu và có màu xanh từ lá bời lời.{' '}
                       </li>
                       <li>
                         <strong>Ưu điểm: </strong>
@@ -465,9 +465,10 @@ const Home: React.FC = () => {
                     <strong>HƯƠNG BÀI QUẢNG</strong>
                     <ul>
                       <li>
-                        <strong>Đặc điểm nổi bật: </strong>Hương Bài Quảng thường có mùi hương đậm,
-                        nguyên thủy và mạnh mẽ. Nó thường được tạo ra từ các loại cây găng núi và có
-                        thể có màu sắc khác nhau.
+                        <strong>Đặc điểm nổi bật: </strong>Hương Bài Quảng là một loại đặc biệt hơn
+                        của Hương Tu Hú, thường có mùi hương đậm, nguyên thủy và mạnh mẽ. Nó thường
+                        được tạo ra từ các loại cây găng núi, rễ hương bài và có thể có màu sắc khác
+                        nhau.
                       </li>
                       <li>
                         <strong>Ưu điểm </strong>
