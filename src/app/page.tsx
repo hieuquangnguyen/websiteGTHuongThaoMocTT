@@ -62,10 +62,10 @@ const Home: React.FC = () => {
                   Và chính tôi tin rằng hương thảo mộc, với mùi hương riêng của từng loại thảo mộc
                   chính trong từng loại hương có thể mang đến cho bạn cảm giác ấm áp và an lành.
                   <br />
-                  Chúng tôi đang nỗ lực mở rộng hơn trên mạng xã hội để mọi người có thể cùng chia
-                  sẻ niềm yêu thích với hương thảo mộc. Bằng việc này, chúng tôi cũng mong muốn mang
-                  đến cho gia đình bạn một cơ hội tốt hơn để trải nghiệm những sản phẩm an lành và
-                  dễ chịu này.
+                  Chúng tôi đang nỗ lực mở rộng hơn trên mạng xã hội để các bạn, người mà đang tìm
+                  kiếm sản phẩm sạch có thể cùng chia sẻ niềm yêu thích với hương thảo mộc. Bằng
+                  việc này, chúng tôi cũng mong muốn mang đến cho gia đình bạn một cơ hội tốt hơn để
+                  trải nghiệm những sản phẩm an toàn và sạch này.
                   <br />
                   Chúng tôi hi vọng bạn sẽ tìm thấy sản phẩm hương thảo mộc ưa chuộng tại đây.
                   <br />
@@ -377,8 +377,10 @@ const Home: React.FC = () => {
                       <li>
                         <i>
                           {' '}
-                          &quot;Thời buổi đã phát triển, mọi người đều tìm nhang sạch, an toàn, đem
-                          lại cảm giác dễ chịu mà dùng&quot;
+                          &quot;Hiện đại thì nhiều cái hại xuất hiện, nên chừ mọi người đa số đều
+                          tìm về sản phẩm sạch, con tìm cho cha mẹ, cha mẹ tìm cho gia đình, mọi
+                          người cùng tìm sản phẩm sạch để chính gia đình họ được sử dụng sản phẩm an
+                          toàn, mang lại một sức khỏe tốt. &quot;
                         </i>
                       </li>
                     </ul>
@@ -591,9 +593,6 @@ const Home: React.FC = () => {
                             Kháng khuẩn, thanh lọc không khí, làm cho không khí sạch sẽ hơn{' '}
                           </li>{' '}
                           <li>Giúp thanh trược tẩy uế văn phòng làm việc, nhà bếp, chưng cư.</li>
-                          <li>
-                            Mang lại cảm giác dễ chịu, thoải mái để mọi người làm việc tốt hơn.
-                          </li>
                           <li>
                             Mùi hương bồ kết làm những con côn trùng như: muỗi, kiến, ruồi, gián cảm
                             thấy khó chịu.
@@ -1013,7 +1012,7 @@ const Home: React.FC = () => {
                     <li>
                       {' '}
                       <strong> Bước 4:</strong> Cho bột vào máy, chuẩn bị tăm nhang sau đó máy sẽ
-                      thực hiện. <i>Mời mọi người xem kĩ ở video bên cạnh nhé</i>
+                      thực hiện.
                     </li>
                     <li>
                       {' '}
@@ -1030,7 +1029,8 @@ const Home: React.FC = () => {
                       điều khó khăn, lúc nắng quá gắt nhang sẽ bị cong, lúc trời mưa thì nhang sẽ bị
                       mốc nếu không được phơi). Nhưng chúng tôi đã có nhiều kinh nghiệm, nắng gắt
                       thì cố gắng trở nhang và dồn lại, trời mưa thì có lò sấy nhang. Chúng tôi cố
-                      gắng nhất có thể để sản xuất ra cây nhang chất lượng và đem đến cho mọi người.{' '}
+                      gắng nhất có thể để sản xuất ra cây nhang chất lượng và đem đến cho &quot; cả
+                      nhà Sạch &quot; những sản phẩm đạt hiểu quả an toàn cao nhất.{' '}
                     </li>
                     <li>
                       <strong>Bước 7: </strong> Tùy vào yêu cầu của khách hàng mà chúng tôi sẽ đóng
@@ -1216,9 +1216,95 @@ const Home: React.FC = () => {
 
           <div className={st.gth6}>
             <div className={st.imageContainer}>
-              <video className={st.video} width="300px" height="350px" controls>
+              {/* <video className={st.video} width="300px" height="350px" controls>
                 <source src="" type="video/mp4"></source>
-              </video>
+              </video> */}
+              <div
+                id="myCarousel6"
+                className="carousel slide"
+                data-ride="carousel"
+                // style={{ backgroundColor: '#faedcd', borderRadius: '100px' }}
+              >
+                {/* Indicators */}
+                <ol className="carousel-indicators" style={{ bottom: '0px' }}>
+                  <li data-target="#myCarousel6" data-slide-to={0} className="active" />
+                  <li data-target="#myCarousel6" data-slide-to={1} />
+                  <li data-target="#myCarousel6" data-slide-to={2} />
+                  <li data-target="#myCarousel6" data-slide-to={3} />
+                </ol>
+                {/* Wrapper for slides */}
+                <div className="carousel-inner" style={{ boxShadow: '0px 10px 5px 5px grey' }}>
+                  <div className={`item active  `}>
+                    <Image
+                      className={`${st.imageGT7} ${st.zoom}`}
+                      src="/home/content6/nghiencuust0.jpg"
+                      alt="Landscape picture"
+                      width={300}
+                      height={350}
+                    />
+                    {/* <div className="carousel-caption" style={{ paddingBottom: '5px' }}>
+                      <h5 className={st.captionImage}>Chứng nhận từ 1 đại lí của chúng tôi.</h5>
+                    </div> */}
+                  </div>
+                  <div className="item">
+                    <Image
+                      className={`${st.imageGT7} ${st.zoom}`}
+                      src="/home/content6/nghiencuust1.jpg"
+                      alt="Landscape picture"
+                      width={300}
+                      height={350}
+                    />
+                    {/* <div className="carousel-caption" style={{ paddingBottom: '5px' }}>
+                      <h5 className={st.captionImage}>Chứng nhận từ 1 đại lí của chúng tôi.</h5>
+                    </div> */}
+                  </div>
+                  <div className="item">
+                    <Image
+                      className={`${st.imageGT7} ${st.zoom}`}
+                      src="/home/content6/nghiencuust2.jpg"
+                      alt="Landscape picture"
+                      width={300}
+                      height={350}
+                    />
+                    {/* <div className="carousel-caption" style={{ paddingBottom: '5px' }}>
+                      <h5 className={st.captionImage}>Chứng nhận từ 1 đại lí của chúng tôi.</h5>
+                    </div> */}
+                  </div>
+                  <div className="item">
+                    <Image
+                      className={`${st.imageGT7} ${st.zoom}`}
+                      src="/home/content6/nghiencuust4.jpg"
+                      alt="Landscape picture"
+                      width={300}
+                      height={350}
+                    />
+                    {/* <div className="carousel-caption" style={{ paddingBottom: '5px' }}>
+                      <h5 className={st.captionImage}>Chứng nhận từ 1 đại lí của chúng tôi.</h5>
+                    </div> */}
+                  </div>
+
+                  {/*  */}
+                </div>
+                {/* Left and right controls */}
+                <a
+                  className="left carousel-control"
+                  href="#myCarousel6"
+                  data-slide="prev"
+                  style={{ backgroundImage: 'none' }}
+                >
+                  <span className="glyphicon glyphicon-chevron-left" />
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a
+                  className="right carousel-control"
+                  href="#myCarousel6"
+                  data-slide="next"
+                  style={{ backgroundImage: 'none' }}
+                >
+                  <span className="glyphicon glyphicon-chevron-right" />
+                  <span className="sr-only">Next</span>
+                </a>
+              </div>
             </div>
             <div className={st.textContainer}>
               <h2>SÁNG TẠO VÀ NGHIÊN CỨU PHÁT TRIỂN</h2>
@@ -1246,7 +1332,8 @@ const Home: React.FC = () => {
                     <li>Chúng tôi theo câu nói chất lượng tạo nên thương hiệu.</li>
                     <li>
                       Cuối cùng, chúng tôi lần lượt có những chứng nhận an toàn. (việc này khá tốn
-                      tiền nên chúng tôi làm từng cái theo thời gian, mong mọi người thông cảm).
+                      tiền nên chúng tôi làm từng cái theo thời gian, mong các bạn có thể thông
+                      cảm).
                     </li>
                   </ul>
                 </ul>
@@ -1329,10 +1416,10 @@ const Home: React.FC = () => {
               >
                 {/* Indicators */}
                 <ol className="carousel-indicators" style={{ bottom: '0px' }}>
-                  <li data-target="#myCarousel2" data-slide-to={0} className="active" />
-                  <li data-target="#myCarousel2" data-slide-to={1} />
-                  <li data-target="#myCarousel2" data-slide-to={2} />
-                  <li data-target="#myCarousel2" data-slide-to={3} />
+                  <li data-target="#myCarousel7" data-slide-to={0} className="active" />
+                  <li data-target="#myCarousel7" data-slide-to={1} />
+                  <li data-target="#myCarousel7" data-slide-to={2} />
+                  <li data-target="#myCarousel7" data-slide-to={3} />
                 </ol>
                 {/* Wrapper for slides */}
                 <div className="carousel-inner" style={{ boxShadow: '0px 10px 5px 5px grey' }}>
