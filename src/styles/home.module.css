@@ -52,6 +52,7 @@
   background-color: #ecf39e;
   padding: 5px;
 }
+
 .textContainer h5 {
   color: #184e77;
   font-size: 15px;
@@ -68,7 +69,7 @@
 }
 .dacdiemnoibatGT3 {
   /* background-color: red; */
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 
 .gth1,

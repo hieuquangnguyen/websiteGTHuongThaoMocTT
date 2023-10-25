@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import st from '@/styles/home.module.css';
 import Link from 'next/link';
 import Script from 'next/script';
+import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card';
 // import './xulievent.js';
 
 const Home: React.FC = () => {
@@ -345,12 +347,11 @@ const Home: React.FC = () => {
                   <li>
                     Bắt đầu từ khi thành lập, cho đến ngày hôm nay (ngày tôi viết website này là năm
                     2023). Gia đình tôi đã trải qua trất nhiều giai đoạn trong sản xuất và kinh
-                    doanh hương. Ban đầu vì theo thị trường, gia đình tôi làm rất nhiều loại hương,
-                    loại ưa chuộng để thắp ở nhà, ở tộc, ở nơi linh thiêng là Hương Tu Hú (Găng Núi)
-                    và Quế, đây là hai mùi hương được truyền từ bao đời nay.
-                    {/* Ngoài ra bởi
-                    vì nhu cầu ngoài thị trường, cũng như cuộc sống mưu sinh nhà còn làm thêm các
-                    loại hương khác có mùi nước hoa v.v.v. */}
+                    doanh hương. Ban đầu vì theo thị trường, gia đình tôi làm rất nhiều loại hương.
+                    Nhưng những loại được khách hàng ưa chuộng để thắp ở nhà, ở tộc, ở nơi linh
+                    thiêng thường là Trầm Hương, Tu Hú Hương (Găng Núi). Ngoài ra hương Quế cũng
+                    được ưa chuộng bởi giá thành mềm hơn. Đây là ba mùi hương được truyền từ bao đời
+                    nay.
                   </li>
                   <li>
                     Đầu năm 2020, khi hương tu hú và quế đã được lan rộng, có vận chuyển đi Sài Gòn,
@@ -434,7 +435,325 @@ const Home: React.FC = () => {
                   <li>Hương Cà Phê</li>
                 </ul>
                 <hr style={{ border: 'solid 1px' }} />
-                <div className={st.dacdiemnoibatGT3}>
+                <i>Bấm chọn và xem kĩ các điểm nổi bật của loại hương bạn muốn nhé !</i>
+                <Card style={{ fontSize: '16px' }}>
+                  <Accordion defaultActiveKey={['0']} alwaysOpen>
+                    {/* trầm */}
+                    <Accordion.Item eventKey="0">
+                      <Accordion.Header
+                        style={{
+                          backgroundColor: 'white',
+                          width: 'auto',
+                          marginTop: '0',
+                        }}
+                      >
+                        <p style={{ fontSize: '15px', alignItems: 'center', marginBottom: '0' }}>
+                          Trầm Hương
+                        </p>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div className={st.HuongTram}>
+                          <strong>HƯƠNG TRẦM</strong>{' '}
+                          <ul>
+                            <li>
+                              <strong>Đặc điểm nổi bật:</strong> Hương Trầm có mùi thơm ấm áp và đậm
+                              đà.{' '}
+                            </li>
+                            <li>
+                              <strong>Ưu điểm: </strong>
+                              <ul>
+                                <li>Giúp con người dễ dàng cân bằng tâm trí.</li>
+                                <li>
+                                  Khi đốt trầm hương, mùi hương trầm như thể len lõi vào từng tế bào
+                                  thần kinh giúp cho tâm ta tĩnh, trí ta an.{' '}
+                                </li>
+                                <li>
+                                  Đặc biệt Hương Trầm thường được sử dụng để tạo không gian yên bình
+                                  và tĩnh lặng trong nghiên cứu tinh thần và thiền học.
+                                </li>
+                                <li>
+                                  Về mặt tâm linh thì nhang Trầm còn có thể hóa giải tà khí trong
+                                  nhà, mang lại nhiều may mắn cho gia chủ.
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    {/* tu hú */}
+                    <Accordion.Item eventKey="1">
+                      <Accordion.Header
+                        style={{
+                          backgroundColor: 'white',
+                          width: 'auto',
+                          marginTop: '0',
+                        }}
+                      >
+                        <p style={{ fontSize: '15px', alignItems: 'center', marginBottom: '0' }}>
+                          Tu Hú Hương
+                        </p>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div className={st.HuongTuHu}>
+                          <strong>HƯƠNG TU HÚ</strong>{' '}
+                          <ul>
+                            <li>
+                              <strong>Đặc điểm nổi bật:</strong> Hương Tu Hú thường có mùi hương nhẹ
+                              nhàng, nguyên thủy. Nó thường được tạo ra từ các loại cây găng núi, rễ
+                              hương lâu và có màu xanh từ lá bời lời.{' '}
+                            </li>
+                            <li>
+                              <strong>Ưu điểm: </strong>
+                              <ul>
+                                <li>
+                                  Mùi hương được nhiều người ưa chuộng nhất bởi mùi thơm dễ chịu.
+                                </li>
+                                <li>
+                                  Khi đốt tu hú hương, mùi hương tu hú nhẹ nhang lan tỏa khắp không
+                                  gian, khiến không gian ấm áp & dễ chịu.
+                                </li>
+                                <li>
+                                  Đặc biệt Hương Tu Hú thường được sử dụng để tạo không gian yên
+                                  bình và tĩnh lặng.
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    {/* bài quảng */}
+                    <Accordion.Item eventKey="2">
+                      <Accordion.Header
+                        style={{
+                          backgroundColor: 'white',
+                          width: 'auto',
+                          marginTop: '0',
+                        }}
+                      >
+                        <p style={{ fontSize: '15px', alignItems: 'center', marginBottom: '0' }}>
+                          Bài Quảng Hương
+                        </p>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div className={st.HuongBaiQuang}>
+                          <strong>HƯƠNG BÀI QUẢNG</strong>
+                          <ul>
+                            <li>
+                              <strong>Đặc điểm nổi bật: </strong>Hương Bài Quảng là một loại đặc
+                              biệt hơn của Hương Tu Hú, thường có mùi hương đậm, nguyên thủy và mạnh
+                              mẽ. Nó thường được tạo ra từ các loại cây găng núi, rễ hương bài và có
+                              thể có màu sắc khác nhau.
+                            </li>
+                            <li>
+                              <strong>Ưu điểm </strong>
+                              <ul>
+                                <li>
+                                  Hương bài quảng thường được ưa chuộng vì tính tinh khiết và khả
+                                  năng tạo ra mùi hương đậm đà, ngạt ngào lan tỏa.
+                                </li>
+                                <li>Tạo cho con người cảm giác dễ chịu, sảng khoái nhất.</li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    {/* Quế */}
+                    <Accordion.Item eventKey="3">
+                      <Accordion.Header
+                        style={{
+                          backgroundColor: 'white',
+                          width: 'auto',
+                          marginTop: '0',
+                        }}
+                      >
+                        {' '}
+                        <p style={{ fontSize: '15px', alignItems: 'center', marginBottom: '0' }}>
+                          Quế Hương
+                        </p>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div className={st.HuongQue}>
+                          <strong>HƯƠNG QUẾ</strong>
+                          <ul>
+                            <li>
+                              <strong>Đặc điểm nổi bật:</strong> Hương Quế có mùi thơm ấm áp và ngọt
+                              ngào.{' '}
+                            </li>
+                            <li>
+                              <strong>Ưu điểm:</strong>
+                              <ul>
+                                <li>
+                                  Nhang quế có mùi thơm nồng dễ chịu, kích thích trí não, giúp thư
+                                  giãn,… và một số công dụng cho sức khỏe.
+                                </li>
+                                <li>
+                                  Khói nhang quế có tác dụng xua đuổi các loại côn trùng bay vào
+                                  nhà, như muỗi, ong. An toàn cho sức khỏe con người{' '}
+                                </li>
+                                <li>Có tác dụng khử mùi hôi rất tốt.</li>
+                                <li>
+                                  Về mặt tâm linh thì nhang quế còn có thể hóa giải tà khí trong
+                                  nhà, mang lại nhiều may mắn cho gia chủ.
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    {/* NGải Cứu */}
+                    <Accordion.Item eventKey="4">
+                      <Accordion.Header
+                        style={{
+                          backgroundColor: 'white',
+                          width: 'auto',
+                          marginTop: '0',
+                        }}
+                      >
+                        <p style={{ fontSize: '15px', alignItems: 'center', marginBottom: '0' }}>
+                          Ngải Cứu Hương
+                        </p>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div className={st.HuongNgaiCuu}>
+                          <strong>HƯƠNG NGẢI CỨU</strong>
+                          <ul>
+                            <li>
+                              <strong>Đặc điểm nổi bật: </strong>Hương ngải cứu có mùi hương thảo
+                              dược, thanh khiết và mát mẻ.
+                            </li>
+                            <li>
+                              <strong>Ưu điểm </strong>
+                              <ul>
+                                {' '}
+                                <li>Giúp thư giản tinh thần.</li>
+                                <li>Giúp an thần & định tâm.</li>
+                                <li>Làm sạch không gian, chống ẩm mốc và tạo cảm giác dễ chịu.</li>
+                              </ul>
+                            </li>
+                          </ul>{' '}
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    {/* Bồ Kết */}
+                    <Accordion.Item eventKey="5">
+                      <Accordion.Header
+                        style={{
+                          backgroundColor: 'white',
+                          width: 'auto',
+                          marginTop: '0',
+                        }}
+                      >
+                        <p style={{ fontSize: '15px', alignItems: 'center', marginBottom: '0' }}>
+                          Bồ Kết Hương
+                        </p>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div className={st.HuongBoKet}>
+                          <strong>HƯƠNG BỒ KẾT</strong>
+                          <ul>
+                            <li>
+                              <strong>Đặc điểm nổi bật: </strong> Hương bồ kết thường có mùi hương
+                              nồng nàn, đặc trưng
+                            </li>
+                            <li>
+                              <strong>Ưu điểm </strong>
+                              <ul>
+                                {' '}
+                                <li>
+                                  Kháng khuẩn, thanh lọc không khí, làm cho không khí sạch sẽ hơn{' '}
+                                </li>{' '}
+                                <li>
+                                  Giúp thanh trược tẩy uế văn phòng làm việc, nhà bếp, chưng cư.
+                                </li>
+                                <li>
+                                  Mùi hương bồ kết làm những con côn trùng như: muỗi, kiến, ruồi,
+                                  gián cảm thấy khó chịu.
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    {/* Sả */}
+                    <Accordion.Item eventKey="6">
+                      <Accordion.Header
+                        style={{
+                          backgroundColor: 'white',
+                          width: 'auto',
+                          marginTop: '0',
+                        }}
+                      >
+                        <p style={{ fontSize: '15px', alignItems: 'center', marginBottom: '0' }}>
+                          Sả Hương
+                        </p>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div className={st.HuongSa}>
+                          <strong>HƯƠNG SẢ</strong>
+                          <ul>
+                            <li>
+                              <strong>Đặc điểm nổi bật:</strong> Hương sả có mùi hương tươi mát, nhẹ
+                              nhàng. Nó được tạo ra từ cây sả và được kết hợp với các loại thảo dược
+                              khác.{' '}
+                            </li>
+                            <li>
+                              <strong>Ưu điểm </strong>
+                              <ul>
+                                {' '}
+                                <li>Làm sạch không gian </li>{' '}
+                                <li>Tạo sự tỉnh táo và tăng sự tập trung.</li>
+                                <li>
+                                  Xua đuổi muỗi và kháng khuẩn. An toàn cho sức khỏe con người.
+                                </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                    {/* Cà Phê*/}
+                    <Accordion.Item eventKey="7">
+                      <Accordion.Header
+                        style={{
+                          backgroundColor: 'white',
+                          width: 'auto',
+                          marginTop: '0',
+                        }}
+                      >
+                        <p style={{ fontSize: '15px', alignItems: 'center', marginBottom: '0' }}>
+                          Cà Phê Hương
+                        </p>
+                      </Accordion.Header>
+                      <Accordion.Body>
+                        <div className={st.HuongCaPhe}>
+                          <strong>HƯƠNG CÀ PHÊ</strong>
+                          <ul>
+                            <li>
+                              <strong>Đặc điểm nổi bật: </strong>toả hương thơm cho không gian
+                            </li>
+                            <li>
+                              <strong>Ưu điểm </strong>
+                              <ul>
+                                {' '}
+                                <li>
+                                  Toả hương thơm cho không gian coffee hay người yêu thích cà phê{' '}
+                                </li>{' '}
+                                <li>Giúp tinh thần thoải mái</li>
+                                <li>Giúp đuổi muỗi, ... </li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </div>
+                      </Accordion.Body>
+                    </Accordion.Item>
+                  </Accordion>
+                </Card>
+                {/* <div className={st.dacdiemnoibatGT3}>
                   <p>
                     <strong>Đặc điểm nổi bật & Ưu điểm:</strong>{' '}
                   </p>
@@ -627,10 +946,10 @@ const Home: React.FC = () => {
                     Để rõ hơn, cùng chúng tôi tìm hiểu quy trình sản xuất hương (nhang) ở phần tiếp
                     theo nhé !
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className={st.imageContainer}>
+            <div className={st.imageContainer} style={{marginTop:'10px'}}>
               {/* <Image src="/home/avtProduct.png" alt="Landscape picture" width={250} height={300} /> */}
               <div id="myCarousel3" className="carousel slide" data-ride="carousel">
                 {/* Indicators */}
