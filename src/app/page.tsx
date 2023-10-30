@@ -398,13 +398,24 @@ const Home: React.FC = () => {
                     <li>Hiện tại nhà có một số loại hương từ thảo mộc như :</li>
                     <ul>
                       <li>Hương Tu Hú</li>
-                      <li>Hương Bài Quảng</li>
                       <li>Hương Trầm</li>
                       <li>Hương Quế</li>
-                      <li>Hương Ngải Cứu</li>
-                      <li>Hương Sả</li>
-                      <li>Hương Bồ Kết</li>
-                      <li>Hương Cà Phê</li>
+                      <li>
+                        Hương Bài Quảng <i> (Đang Thử Nghiệm Thị Trường) </i>
+                      </li>
+
+                      <li>
+                        Hương Ngải Cứu <i> (Đang Thử Nghiệm Thị Trường) </i>{' '}
+                      </li>
+                      <li>
+                        Hương Sả <i> (Đang Thử Nghiệm Thị Trường) </i>
+                      </li>
+                      <li>
+                        Hương Bồ Kết <i> (Đang Thử Nghiệm Thị Trường) </i>
+                      </li>
+                      <li>
+                        Hương Cà Phê <i> (Đang Thử Nghiệm Thị Trường) </i>
+                      </li>
                     </ul>
                   </ul>
                 </ul>
@@ -426,13 +437,24 @@ const Home: React.FC = () => {
                 {/* </div> */}
                 <ul>
                   <li>Hương Tu Hú</li>
-                  <li>Hương Bài Quảng</li>
                   <li>Hương Trầm</li>
                   <li>Hương Quế</li>
-                  <li>Hương Ngải Cứu</li>
-                  <li>Hương Sả</li>
-                  <li>Hương Bồ Kết</li>
-                  <li>Hương Cà Phê</li>
+                  <li>
+                    Hương Bài Quảng <i> (Đang Thử Nghiệm Thị Trường) </i>
+                  </li>
+
+                  <li>
+                    Hương Ngải Cứu <i> (Đang Thử Nghiệm Thị Trường) </i>
+                  </li>
+                  <li>
+                    Hương Sả <i> (Đang Thử Nghiệm Thị Trường) </i>
+                  </li>
+                  <li>
+                    Hương Bồ Kết <i> (Đang Thử Nghiệm Thị Trường) </i>
+                  </li>
+                  <li>
+                    Hương Cà Phê <i> (Đang Thử Nghiệm Thị Trường) </i>
+                  </li>
                 </ul>
                 <hr style={{ border: 'solid 1px' }} />
                 <i>Bấm chọn và xem kĩ các điểm nổi bật của loại hương bạn muốn nhé !</i>
@@ -949,7 +971,7 @@ const Home: React.FC = () => {
                 </div> */}
               </div>
             </div>
-            <div className={st.imageContainer} style={{marginTop:'10px'}}>
+            <div className={st.imageContainer} style={{ marginTop: '10px' }}>
               {/* <Image src="/home/avtProduct.png" alt="Landscape picture" width={250} height={300} /> */}
               <div id="myCarousel3" className="carousel slide" data-ride="carousel">
                 {/* Indicators */}
@@ -1371,8 +1393,8 @@ const Home: React.FC = () => {
                   Hiện tại cơ sở sản xuất chỉ mới nhỏ lẻ, chưa đăng kí kinh doanh phức tạp và đem
                   sản phẩm đi kiểm định chất lượng, chất trong khói tạo ra để đảm bảo. Nhưng trong
                   tương lai phát triển thì bên nhà phân phối sẽ cung cấp đẩy đủ các thẩm định hương
-                  rõ ràng. Ngoài ra, nếu có đơn vị Đại Lí nào muốn làm Đại Lí của cơ sở thì bên cơ
-                  sở sản xuất Hương Thu Thảo sẵn sàng hỗ trợ tiền kiểm định sản phẩm.
+                  rõ ràng. Ngoài ra, nếu có đơn vị Đại Lí nào muốn làm Đại Lí của cơ sở thì chúng
+                  tôi sẵn sàng hỗ trợ 50% chi phí kiểm định sản phẩm.
                 </h5>
               </i>
               <br />
