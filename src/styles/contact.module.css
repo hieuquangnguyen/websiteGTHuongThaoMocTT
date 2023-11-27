@@ -14,28 +14,27 @@
   padding: 10px;
   padding-bottom: 0px;
 }
-.IamHieu {
-  width: fit-content;
-  padding: 10px;
-  /* border: solid 1px grey; */
-  font-size: 20px;
-  color: #1b4965;
+.CongNgheHoa {
+  animation-name: example;
+  animation-duration: 3s;
+  /* dòng dưới kia sẽ lặp lại Animation mãi  */
+  animation-iteration-count: infinite;
+  padding: 5px;
+  font-weight: bold;
+  line-height: 25px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #d00000;
 }
-/* hiệu ứng chuyển động  */
 @keyframes example {
   from {
-    transform: translateX(100%);
+    background-color: #fee440;
   }
   to {
-    transform: translateX(-100%);
+    background-color: #ecf39e;
   }
 }
-.IamHieu {
-  display: inline-block;
-  animation: example 25s linear infinite;
-  text-align: center;
-  /* animation-direction: alternate; */
-}
+
 .noteContact {
   width: 100%;
   /* white-space: nowrap; */

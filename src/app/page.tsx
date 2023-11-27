@@ -29,9 +29,11 @@ const Home: React.FC = () => {
       <>
         <LayoutContent>
           <div className={st.coverIamHieu}>
-            <div className={st.IamHieu}>
-              Xin chào các bạn, Mình là Quang Hiếu. Thật vui khi các bạn đã ghé thăm website giới
-              thiệu hương này của mình.{' '}
+            <div className={st.CongNgheHoaHome}>
+              TRONG THỜI ĐẠI CÔNG NGHỆ HÓA, SẢN PHẨM TRÊN THỊ TRƯỜNG VÔ CÙNG ĐA DẠNG,
+              <br />
+              TÔI MONG BẠN HÃY TÌM HIỂU RÕ NGUỒN GỐC CỦA SẢN PHẨM TRƯỚC KHI QUYẾT ĐỊNH CLICK MUA NÓ
+              !
             </div>
           </div>
           <div className={st.gth1}>
