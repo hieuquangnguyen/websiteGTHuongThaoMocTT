@@ -1343,7 +1343,7 @@ const Home: React.FC = () => {
                     </li>
                     <li>
                       {' '}
-                      <strong>Bước 2:</strong> Sau khi bột được trộn đều khoản 15 phút, chúng ta sẽ
+                      <strong>Bước 2:</strong> Sau khi bột được trộn đều khoảng 15 phút, chúng ta sẽ
                       cho bột ra và đem đi sản xuất Nhang
                     </li>
                     <li>
