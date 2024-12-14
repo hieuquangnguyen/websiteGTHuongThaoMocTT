@@ -399,16 +399,19 @@ const Home: React.FC = () => {
                   <ul>
                     <li>Hiện tại nhà có một số loại hương từ thảo mộc như :</li>
                     <ul>
-                      <li>Hương Tu Hú</li>
+                      <li>
+                        Hương Tu Hú <i> (Được ưa chuộng) </i>
+                      </li>
+                      <li>
+                        Hương Quế <i> (Được ưa chuộng) </i>
+                      </li>
+                      <li>
+                        Hương Bài Quảng <i> (Được ưa chuộng) </i>
+                      </li>
+                      <li>
+                        Hương Ngải Cứu <i> (Được ưa chuộng) </i>{' '}
+                      </li>
                       <li>Hương Trầm</li>
-                      <li>Hương Quế</li>
-                      <li>
-                        Hương Bài Quảng <i> (Đang Thử Nghiệm Thị Trường) </i>
-                      </li>
-
-                      <li>
-                        Hương Ngải Cứu <i> (Đang Thử Nghiệm Thị Trường) </i>{' '}
-                      </li>
                       <li>
                         Hương Sả <i> (Đang Thử Nghiệm Thị Trường) </i>
                       </li>
