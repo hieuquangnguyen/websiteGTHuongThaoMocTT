@@ -156,8 +156,7 @@ const Contact: React.FC = () => {
             <h5>Liên Hệ Qua Số Điện Thoại:</h5>
           </strong>
           <span>
-            <a href="tel:0915858859">0915 858 859</a> | <a href="tel:0785494476">078 549 4476</a> |{' '}
-            <a href="tel:0707960071">070 796 0071</a>
+            <a href="tel:0766757525">0766 757 525</a> | <a href="tel:0707960071">070 796 0071</a>
           </span>
         </div>
         <hr

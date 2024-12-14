@@ -4,6 +4,7 @@ import styles from '@/styles/layout_navigation.module.css';
 import Link from 'next/link';
 
 const Navigation: React.FC = () => {
+  
   function XuLiManHinhThuGon() {
     const x = document.getElementById('myTopnav') as HTMLElement;
     if (x.className === styles.topnav) {
